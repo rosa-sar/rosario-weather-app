@@ -53,3 +53,5 @@ function submittedSearch(event) {
 
 let searchFormElement = document.querySelector("#search-form");
 searchFormElement.addEventListener("submit", submittedSearch);
+
+searchCity("Manila");
