@@ -16,9 +16,10 @@
   <body>
     <div class="app-body">
       <header>
-        <form>
+        <form class="search-form" id="search-form">
           <input
             type="search"
+            id="search-form-input"
             class="search-form-input"
             placeholder="Enter a City"
             required
@@ -27,21 +28,22 @@
         </form>
       </header>
       <main>
-        <div class="app-city">
-          <h1>Manila</h1>
-        </div>
+        <div class weather-app-data>
+          <div>
+            <h1 class="app-city" id="city">Manila</h1>
 
-        <div class="app-weather-details">
-          <p>
-            Sunday 8:59, overcast clouds <br />Humidity: <strong> 82%</strong>,
-            Wind: <strong>5.14km/h</strong>
-          </p>
-        </div>
-
-        <div class="app-weather-temp">
-          <span class="current-temperature-icon">☀️</span>
-          <span class="current-temperature-value">25</span>
-          <span class="temperature-unit"> <strong>°C</strong></span>
+            <div class="app-weather-details">
+              <p>
+                Sunday 8:59, overcast clouds <br />Humidity:
+                <strong> 82%</strong>, Wind: <strong>5.14km/h</strong>
+              </p>
+            </div>
+          </div>
+          <div class="app-weather-temp">
+            <span class="current-temperature-icon">☀️</span>
+            <span class="current-temperature-value">25</span>
+            <span class="temperature-unit"> <strong>°C</strong></span>
+          </div>
         </div>
       </main>
       <footer>
@@ -57,5 +59,6 @@
         >
       </footer>
     </div>
+    <script src="src/app.js"></script>
   </body>
 </html>

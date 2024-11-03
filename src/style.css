@@ -42,7 +42,7 @@ a {
 }
 .app-city {
   margin: 0;
-  font-size: 25px;
+  font-size: 45px;
   line-height: 48px;
   color: #fff2be;
 }
@@ -59,7 +59,7 @@ a {
   font-weight: 600;
 }
 .app-weather-details strong {
-  color: #f6318c;
+  color: #c3195d;
 }
 .current-temperature-icon {
   font-size: 40px;
@@ -73,5 +73,5 @@ a {
 }
 .temperature-unit {
   font-size: 28px;
-  color: #f6318c;
+  color: #c3195d;
 }
