@@ -31,18 +31,19 @@
       <main>
         <div class weather-app-data>
           <div>
-            <h1 class="app-city" id="city">Manila</h1>
+            <h1 class="app-city" id="city"></h1>
 
             <div class="app-weather-details">
               <p>
-                Sunday 8:59, overcast clouds <br />Humidity:
-                <strong> 82%</strong>, Wind: <strong>5.14km/h</strong>
+                <span id="time"></span>, <span id="description"></span>
+                <br />Humidity: <strong id="humidity"></strong>, Wind:
+                <strong id="wind-speed"></strong>
               </p>
             </div>
           </div>
           <div class="app-weather-temp">
             <span class="current-temperature-icon">☀️</span>
-            <span class="current-temperature-value" id="temperature">25</span>
+            <span class="current-temperature-value" id="temperature"></span>
             <span class="temperature-unit"> <strong>°C</strong></span>
           </div>
         </div>
