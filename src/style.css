@@ -67,11 +67,15 @@ a {
 }
 .current-temperature-value {
   font-size: 80px;
-  line-height: 88px;
+  line-height: 80px;
   font-weight: bold;
   color: #ffc93c;
 }
 .temperature-unit {
   font-size: 28px;
   color: #c3195d;
+}
+.current-temperature-icon {
+  width: 88px;
+  height: 88px;
 }
