@@ -13,7 +13,7 @@ a {
   background-size: cover;
   background-position: center;
 
-  max-width: 600px;
+  max-width: 700px;
   margin: 50px auto;
   padding: 50px;
   box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
@@ -90,12 +90,12 @@ a {
   display: block;
   margin: 0 auto;
   color: #40356f;
-  font-size: 20px;
+  font-size: 15px;
 }
 .weather-forecast-icon {
-  font-size: 35px;
+  font-size: 5px;
   text-align: center;
-  padding: 20px;
+  padding: 10px;
 }
 .weather-forecast-temperatures {
   text-align: center;
@@ -104,5 +104,5 @@ a {
   justify-content: center;
 }
 .weather-forecast-temperature {
-  padding: 0 20px;
+  padding: 0 15px;
 }
