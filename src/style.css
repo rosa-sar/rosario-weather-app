@@ -9,11 +9,9 @@ a {
   color: #40356f;
 }
 .app-body {
-  /*background: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);*/
-
   background-image: url("https://i.imgur.com/FTV93fC.jpeg");
-  background-size: cover; /* This makes the image cover the entire background */
-  background-position: center; /* This centers the image */
+  background-size: cover;
+  background-position: center;
 
   max-width: 600px;
   margin: 50px auto;
@@ -43,7 +41,7 @@ a {
 }
 .app-city {
   margin: 0;
-  font-size: 45px;
+  font-size: 50px;
   line-height: 48px;
   color: #fff2be;
 }
