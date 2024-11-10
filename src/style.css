@@ -34,7 +34,8 @@ a {
 .search-form-button {
   background: #885df1;
   padding: 15px 30px;
-  border: none;
+  border: 1px solid;
+  border-color: #40356f;
   font-size: 16px;
   margin-left: 40px;
   border-radius: 6px;
@@ -90,6 +91,8 @@ a {
   height: 60 px;
   display: block;
   margin: 0 auto;
+  color: #40356f;
+  font-size: 20px;
 }
 .weather-forecast-icon {
   font-size: 35px;
