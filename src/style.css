@@ -79,3 +79,29 @@ a {
   width: 88px;
   height: 88px;
 }
+.weather-forecast {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+
+.weather-forecast-date {
+  text-align: center;
+  height: 60 px;
+  display: block;
+  margin: 0 auto;
+}
+.weather-forecast-icon {
+  font-size: 35px;
+  text-align: center;
+  padding: 20px;
+}
+.weather-forecast-temperatures {
+  text-align: center;
+  color: #c3195d;
+  display: flex;
+  justify-content: center;
+}
+.weather-forecast-temperature {
+  padding: 0 20px;
+}
