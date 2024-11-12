@@ -56,7 +56,7 @@ function submittedSearch(event) {
 
 function formatDay(timestamp) {
   let date = new Date(timestamp * 1000);
-  let days = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
+  let days = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"];
 
   return days[date.getDay()];
 }
@@ -70,7 +70,7 @@ function getForecast(city) {
 function displayForecast(response) {
   let forecastHtml = "";
   response.data.daily.forEach(function (day, index) {
-    if (index < 5) {
+    if (index < 6) {
       forecastHtml =
         forecastHtml +
         `
